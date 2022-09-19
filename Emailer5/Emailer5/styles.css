@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+body {
+  background-color: #727272;
+}
+
+.maindiv {
+  max-width: 614px;
+  margin: auto;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #190a41;
+  background-image: url("./Layer 13 copy.png"), url("./all players.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center top, center bottom -49px;
+  height: 250px;
+}
+nav img {
+  max-width: 100%;
+  padding: 26px 18px;
+}
+nav .rightNav {
+  padding: 32px 32px;
+}
+nav a {
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #ffc100;
+  font-size: 10px;
+}
+
+.bonusImage {
+  width: 80%;
+}
+
+.section2 {
+  padding: 1rem;
+}
+.section2 .innerSection2 {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 3rem;
+  margin-top: 2rem;
+}
+.section2 .innerSection2 img {
+  width: 30%;
+  height: 30%;
+  flex-shrink: 0;
+}
+.section2 .innerSection2 div {
+  width: 50%;
+}
+.section2 .innerSection2 div p {
+  text-align: left;
+  font-size: 14px;
+}
+
+.section3 {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  margin-bottom: 36px;
+  color: #160d3e;
+  font-size: 10px;
+}
+.section3 img {
+  width: 95%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding-bottom: 16px;
+}
+.section3 .innerSection3 img {
+  width: 100%;
+}
+.section3 .innerSectionButton {
+  border: 4px solid #d9d9d9;
+  background-color: #d8288f;
+  padding: 0.5rem 0.8rem;
+  border-radius: 35px;
+  font-weight: 900;
+  margin-top: 16px;
+  color: white;
+}
+.section3 .innerSectionButton:hover {
+  background-color: #ee2e9e;
+}
+
+@media (max-width: 475px) {
+  .section3 {
+    grid-template-columns: 70%;
+    justify-content: center;
+    font-size: 14px;
+  }
+  .section3 div {
+    padding-bottom: 16px;
+  }
+}
+.letsTheGameBegin {
+  padding: 1rem 2rem;
+  border-radius: 45px;
+  background: linear-gradient(180deg, #ffc100, #f8da7e, #ffc100);
+  border: 4px solid #d5d5d5;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(46, 1, 86);
+  margin-bottom: 32px;
+  font-weight: 900;
+}
+.letsTheGameBegin:hover {
+  background: linear-gradient(180deg, #ffc30f, #ffe79f, #ffc30f);
+}
+
+.section4 {
+  color: rgb(46, 1, 86);
+}
+.section4 p {
+  padding-bottom: 28px;
+}
+.section4 a {
+  color: rgb(46, 1, 86);
+  font-style: italic;
+  font-weight: 900;
+}
+.section4 img {
+  width: 90%;
+}
+
+footer {
+  background-color: #190a41;
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
+footer .layer1, footer .layer3, footer .layer4 {
+  padding-bottom: 16px;
+}
+footer .layer1 img, footer .layer3 img, footer .layer4 img {
+  padding: 0 5px;
+  width: 14%;
+  vertical-align: middle;
+}
+footer .layer2 {
+  padding-bottom: 16px;
+}
+footer .layer2 img {
+  padding-left: 14px;
+  width: 12%;
+  vertical-align: middle;
+}
+footer .layer4 img {
+  width: 4%;
+}
+footer .layer5 {
+  color: white;
+  font-size: 10px;
+}
+footer .layer5 a {
+  color: white;
+}/*# sourceMappingURL=styles.css.map */
